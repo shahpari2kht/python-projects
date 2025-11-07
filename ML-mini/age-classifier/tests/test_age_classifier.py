@@ -1,0 +1,1 @@
+from age_classifier import predict_age\n\ndef test_predict_age():\n    assert predict_age({"wrinkles": 0}) == "young"\n    assert predict_age({"wrinkles": 3}) == "adult"\n    assert predict_age({"wrinkles": 8}) == "senior"

@@ -1,0 +1,1 @@
+def predict_age(features):\n    """Simple demonstration: return age group based on sample feature."""\n    if features.get("wrinkles", 0) > 5:\n        return "senior"\n    elif features.get("wrinkles", 0) > 1:\n        return "adult"\n    else:\n        return "young"\n
