@@ -1,64 +1,26 @@
-# Age Classifier
+# Age Classifier | رده‌بندی سنی
 
-A simple Python project to classify users into age groups based on their input age.
-
----
-
-## 🚀 Project Description
-
-This project takes the user's age as input and classifies them into standard age categories (e.g. child, teenager, adult, senior).  
-It demonstrates input validation, conditional statements, and output formatting in Python.
+Classifies users into age groups based on their input.  
+دسته‌بندی افراد براساس سن ورودی کاربر.
 
 ---
 
-## 📦 Features
+## Installation | نصب
+```bash
+pip install -r requirements.txt
 
-- Reads user input (age)
-- Classifies age group based on defined boundaries
-- Handles invalid input cases
-- Easy-to-modify and expand for new categories
+Usage | نحوه استفاده
 
----
+python age_classifier.py
 
-## 🛠️ Technologies Used
+Example | نمونه خروجی
 
-- Python (basic inputs, conditionals)
-- Command-line interface
+Enter your age: 25
+You belong to the 'Adult' age group.
 
----
+Tests | تست
 
-## ▶️ How to Run
-
-1. Make sure you have Python installed.
-2. Go to the project directory:
-    ```bash
-    cd age-classifier
-    ```
-3. Run the script:
-    ```bash
-    python age.py
-    ```
-4. Enter an age when prompted and see the result.
-
----
-
-## 💡 Example
-
-Please enter your age: 27
-
-You are an adult.
+pytest tests/
 
 
 ---
-
-## 👩‍💻 Author
-
-Parisa Mohammadzadeh  
-[GitHub](https://github.com/shahpari2kht) | [LinkedIn](https://www.linkedin.com/in/parisamohammadzadeh)  
-Email: Shahpari2kht@gmail.com
-
----
-
-### پروژه دسته‌بندی سنی
-
-ساده برای تمرین‌های پایتون. ورودی: سن کاربر، خروجی: نمایش گروه سنی.
