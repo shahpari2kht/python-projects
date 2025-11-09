@@ -1,71 +1,37 @@
-# Vote Counter
+### **2.2 vote-counter**
 
-A beginner Python project for counting votes and determining simple poll results.
-
----
-
-## 🚀 Project Description
-
-This script collects votes (from user input or a specified list), counts the votes for each candidate/option, and displays the result with the winner(s).
+مسیر: `vote-counter/README.md`  
+متن قبلا آماده کردیم، فقط بررسی کن تست‌ها اضافه شده باشند.
 
 ---
 
-## 📦 Features
+### **2.3 Prime-Divisors-Counter**
 
-- Takes multiple votes as input
-- Counts votes for each candidate
-- Handles ties correctly
-- Displays the winner or winners
+مسیر: `Prime-Divisors-Counter/README.md`
 
----
 
-## 🛠️ Technologies Used
+# Prime Divisors Counter | شمارنده مقسوم‌علیه‌های اول
 
-- Python (loops, lists/dicts, input/output)
-- Command-line interface
+Counts the prime divisors of a given number.  
+تعداد مقسوم‌علیه‌های اول یک عدد ورودی را محاسبه می‌کند.
 
 ---
 
-## ▶️ How to Run
+## Installation | نصب
 
-1. Make sure you have Python installed.
-2. Go to the project directory:
-    ```bash
-    cd vote-counter
-    ```
-3. Run the script:
-    ```bash
-    python vote_counter.py
-    ```
-4. Enter choices as prompted, or follow specific instructions in the script.
+pip install -r requirements.txt
 
----
+Usage | نحوه استفاده
 
-## 💡 Example
+python main.py
 
-Enter number of voters: 3
+Example | نمونه خروجی
 
-Voter 1, enter your vote: Alice
+Enter a number: 12
+Prime divisors: 2, 3
 
-Voter 2, enter your vote: Bob
+Tests | تست
 
-Voter 3, enter your vote: Alice
-
-Results: Alice - 2, Bob - 1
-
-Winner: Alice
-
+pytest tests/
 
 ---
-
-## 👩‍💻 Author
-
-Parisa Mohammadzadeh  
-[GitHub](https://github.com/shahpari2kht) | [LinkedIn](https://www.linkedin.com/in/parisamohammadzadeh)  
-Email: Shahpari2kht@gmail.com
-
----
-
-### پروژه شمارش رأی
-
-شمارش رأی‌ها و اعلام برنده در یک نظرسنجی ساده، مناسب تمرین ساختارهای داده و شرط‌ها در پایتون.
