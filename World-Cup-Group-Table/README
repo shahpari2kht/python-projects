@@ -1,6 +1,32 @@
-# ساخت جدول گروه جام جهانی (گروه B)
 
-نتایج شش مسابقه گروه بین ایران، اسپانیا، پرتغال و مراکش را می‌گیرد  
-و امتیاز، برد، باخت، مساوی و تفاضل گل را به صورت جدول نمایش می‌دهد.
+---
 
-## اجرا
+### **2.4 World-Cup-Group-Table**
+
+
+# World Cup Group Table | جدول گروه‌های جام جهانی
+
+Displays group tables of World Cup teams based on match results.  
+نمایش جدول گروه‌های تیم‌های جام جهانی بر اساس نتایج بازی‌ها.
+
+---
+
+## Installation | نصب
+
+pip install -r requirements.txt
+
+Usage | نحوه استفاده
+
+python main.py
+
+Example | نمونه خروجی
+
+Group A:
+Team  Points  GF  GA  GD
+Brazil  6     5   2   3
+Argentina  3   3   2   1
+
+
+Tests | تست
+
+pytest tests/
