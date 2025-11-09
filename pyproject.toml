@@ -1,0 +1,10 @@
+[project]
+name = "python-projects"
+version = "0.1.0"
+description = "My Python projects: learning exercises & practical applications in Data Science."
+readme = "README.md"
+authors = [
+    { name="Parisa Mohammadzadeh", email="Shahpari2kht@gmail.com" }
+]
+license = { file="LICENSE" }
+dependencies = []
